@@ -1,27 +1,19 @@
-<html>
-<body>
 <?php
-$my_array = array(
-    "0" => "- - - - -",
-    "1" => "- - - - -"
-);
-// foreach ($my_array as $my_key => $my_row)
-// {
-//     echo ("$my_row\n");
-// };
-echo ("$my_array[0] \n");
 
-$x1 = 0;
-$y1 = 1;
-$symb1 = "- * - - -";
-$my_array[$x1] = $symb1;
+include_once 'point.php';
 
-// foreach ($my_array as $my_key => $my_row)
-// {
-//     echo ("$my_row\n");
-// };
-echo ($my_array[0]);
+$p1 = new Point();
+
+$p1->x = 1;
+$p1->y = 3;
+$p1->sym = '*';
+$p1->Draw ();
+
+$p2 = new Point();
+
+$p2->x = 4;
+$p2->y = 5;
+$p2->sym = '#';
+$p2->Draw ();
 
 ?>
-</body>
-</html>
