@@ -1,5 +1,3 @@
-<html>
-<body>
 <?php
 $my_array = array(
     "0" => "- - - - -",
@@ -23,5 +21,3 @@ $my_array[$x1] = $symb1;
 echo ($my_array[0]);
 
 ?>
-</body>
-</html>
